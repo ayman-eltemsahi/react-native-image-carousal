@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, SafeAreaView, StatusBar } from "react-native";
+import { StyleSheet, SafeAreaView, StatusBar } from "react-native";
 
 import Carousal from "./src/carousal/Carousal";
 
@@ -14,8 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor: "red",
-    marginTop: StatusBar.currentHeight + 50,
+    marginTop: StatusBar.currentHeight + 20,
     alignItems: "center",
     justifyContent: "center",
   },

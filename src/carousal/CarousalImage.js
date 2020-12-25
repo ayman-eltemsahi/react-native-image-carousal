@@ -15,20 +15,17 @@ const CarousalImage = ({ index, animation, imageUrl }) => {
 
   const rotateY = animation.interpolate({
     inputRange,
-    outputRange: ["40deg", "0deg", "-40deg"],
-    extrapolate: "clamp",
+    outputRange: ["30deg", "0deg", "-30deg"],
   });
 
   const translateX = animation.interpolate({
     inputRange,
-    outputRange: [-200, 0, 200],
-    extrapolate: "clamp",
+    outputRange: [-150, 0, 150],
   });
 
   const scale = animation.interpolate({
     inputRange,
-    outputRange: [1, 1.1, 1],
-    extrapolate: "clamp",
+    outputRange: [1, 1.07, 1],
   });
 
   return (
